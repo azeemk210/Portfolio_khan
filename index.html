@@ -12,14 +12,14 @@
 </head>
 
 <body>
-  <!-- Header -->
+  <!-- Header --
   <section id="header">
     <div class="header container">
       <div class="nav-bar">
         <div class="brand">
           <a href="#home">
 
-            <h1><span>M</span>OHA<span>MMA</span>D AZEE<span>M</span> KH<span>AN</span></h1>
+            <h1>MOHAMMAD AZEEM KHAN</h1>
 
           </a>
         </div>
@@ -41,6 +41,36 @@
     </div>
   </section>
   <!-- End Header -->
+
+  <!-- Header -->
+<section id="header">
+  <div class="header container">
+    <div class="nav-bar">
+      <div class="brand">
+        <a href="#home">
+          <h1>MOHAMMAD AZEEM KHAN</h1>
+        </a>
+      </div>
+      <div class="nav-list">
+        <div class="hamburger">
+          <div class="bar"></div>
+        </div>
+        <ul class="menu">
+          <li><a href="#home" data-after="Home">Home</a></li>
+          <li><a href="#about" data-after="About">About</a></li>
+          <li><a href="#skills" data-after="skills">Skills</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#experience" data-after="Experience">Experience</a></li>
+            <li><a href="#education" data-after="education">Education</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          <!-- Add other menu items here if needed -->
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Header -->
+
 
 
   <!-- home Section  -->
@@ -518,6 +548,23 @@
   </section>
   <!-- End Footer -->
   <script src="./app.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const hamburger = document.querySelector(".hamburger");
+      const menu = document.querySelector(".menu");
+  
+      hamburger.addEventListener("click", function () {
+        menu.classList.toggle("show");
+      });
+  
+      // Close the menu when a menu item is clicked
+      menu.querySelectorAll("a").forEach(function (menuItem) {
+        menuItem.addEventListener("click", function () {
+          menu.classList.remove("show");
+        });
+      });
+    });
+  </script>
 
 </body>
 

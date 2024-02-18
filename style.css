@@ -78,6 +78,8 @@ p {
 	color: crimson;
 }
 
+
+
 /* Header section */
 #header {
 	position: fixed;
@@ -211,7 +213,7 @@ p {
 	background-size: cover;
 	background-position: top center;
 	position: relative;
-	z-index: 1;
+	z-index: 5;
 }
 #home::after {
 	content: '';
@@ -265,7 +267,7 @@ p {
 	left: 0;
 	height: 100%;
 	width: 0;
-	background-color: crimson;
+	background-color: rgb(20, 193, 220);
 	animation: text_reveal_box 1s ease;
 	animation-delay: 0.5s;
 }
@@ -315,7 +317,7 @@ p {
 	height: 100%;
 	width: 100%;
 	position: relative;
-	border: 10px solid rgb(230, 225, 225);
+	border: 0px solid rgb(230, 225, 225);
 }
 /* End About Section */
 
