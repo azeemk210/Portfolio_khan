@@ -638,8 +638,8 @@ p {
   /* Slideshow Styles */
   #education .slideshow-container {
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	justify-content: left;
+	align-items: left;
 	max-width: 1000px;
 	position: relative;
 	padding: 20px;
@@ -676,7 +676,7 @@ p {
 	margin-bottom: 10px;
 	color: #060606;
 	list-style-type: disc; /* You can change 'disc' to 'circle' or 'square' for different bullet styles */
-        margin-left: 20px; /* Adjust the margin as needed to control spacing */
+    margin-left: 20px; /* Adjust the margin as needed to control spacing */
   }
   
 
