@@ -785,6 +785,15 @@ p {
 	  opacity: 1;
 	}
   }
+  .bullet-list-modules {
+	font-size: 18px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	color: #060606;
+	list-style-type: square; /* You can change 'disc' to 'circle' or 'square' for different bullet styles */
+    margin-left: 20px;
+	columns: 2;
+}
 /* End education eSection */
 
 
@@ -1025,6 +1034,10 @@ body, h1, h2, h3, p {
   #projects .dot:hover {
 	background-color: #973c3c;
   }
+
+  
+
+
 
 
 
