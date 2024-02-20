@@ -1,0 +1,33 @@
+Estimation of Forest Area and Tree Loss using Google Earth Engine    		    07/2022 – 01/2023
+TUM Precision Agriculture Lab, Munich 
+Developed a script using Google Earth Engine to estimate forest area and tree loss. Utilized satellite imagery from the Global Forest Change dataset and parameters such as canopy cover percentage and minimum forest size to derive forest area and tree loss metrics.
+Responsibilities:
+•	Implemented filtering techniques to extract canopy cover meeting specified criteria.
+•	Utilized connected pixel count algorithms to identify contiguous forest areas.
+•	Calculated forest area and tree loss in hectares using Earth Engine's geospatial processing capabilities.
+•	Technologies Used: Google Earth Engine, JavaScript, Remote Sensing, Geospatial Analysis.
+Achievements:
+•	Successfully estimated forest area and tree loss for a selected country, providing valuable insights into deforestation trends.
+•	Developed a systematic approach to analyze large-scale satellite imagery datasets for environmental monitoring purposes.
+•	Enhanced proficiency in GEE, geospatial analysis, and remote sensing techniques.
+
+
+https://developers.google.com/earth-engine/tutorials/community/forest-cover-loss-estimation
+Project Title: Forest Cover Analysis using Google Earth Engine
+
+Project Title: Forest Cover Analysis in Bolivia using Google Earth Engine
+
+Duration: [Start Date] - [End Date]
+
+Description:
+- Conducted an in-depth analysis of forest cover and tree loss in Bolivia using satellite imagery from the Global Forest Change (GFC) dataset.
+- Developed and implemented JavaScript code in Google Earth Engine to calculate key metrics such as tree cover percentage, forest area, and tree loss.
+- Established minimum thresholds for canopy cover (10%) and forest area (0.52 hectares) to define forested areas.
+- Analyzed forest dynamics between 2000 and 2001, revealing insights into deforestation trends and forest conservation efforts.
+- Identified approximately 66.3 million hectares of tree cover meeting the defined thresholds in 2000, indicating the extent of forested areas in Bolivia.
+- Detected tree loss of approximately 119,861 hectares in 2001, highlighting areas of significant deforestation within the defined forested regions.
+- Evaluated tree cover of approximately 66.2 million hectares in 2001 meeting the established thresholds, providing a comprehensive understanding of forest dynamics.
+
+Technical Skills: JavaScript programming, remote sensing, geospatial analysis
+
+
