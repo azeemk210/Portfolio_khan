@@ -9,10 +9,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>My Portfolio</title>
   <link rel="icon" href="img/logo1.jpeg" type="image/x-icon">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
-  <!-- Header --
+  Header --
   <section id="header">
     <div class="header container">
       <div class="nav-bar">
@@ -42,35 +43,7 @@
   </section>
   <!-- End Header -->
 
-  <!-- Header -->
-  <section id="header">
-    <div class="header container">
-      <div class="nav-bar">
-        <div class="brand">
-          <a href="#home">
-            <h1>MOHAMMAD AZEEM KHAN</h1>
-          </a>
-        </div>
-        <div class="nav-list">
-          <div class="hamburger">
-            <div class="bar"></div>
-          </div>
-          <ul class="menu">
-            <li><a href="#home" data-after="Home">Home</a></li>
-            <li><a href="#about" data-after="About">About</a></li>
-            <li><a href="#skills" data-after="skills">Skills</a></li>
-            <li><a href="#projects" data-after="Projects">Projects</a></li>
-            <li><a href="#experience" data-after="Experience">Experience</a></li>
-            <li><a href="#education" data-after="education">Education</a></li>
-            <li><a href="#contact" data-after="Contact">Contact</a></li>
-            <!-- Add other menu items here if needed -->
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Header -->
-
+  
 
 
   <!-- home Section  -->
@@ -222,16 +195,20 @@
       <div class="project-card">
         <img src="img/ILMIS.jpeg" alt="Project 1">
         <h1>ILMIS: Integrated Land Management Information System </h1>
-        <p> This project focuses on the development of an Integrated Land Management Information System (ILMIS) through the creation of a Digital Cadastral Database (DCDB) to support comprehensive land information management. Leveraging GIS technology such as QGIS & ArcGIS, the project undertook various spatial analysis and visualizations to enhance understanding and management of natural hazards. Key tasks included digitization,3D modeling, climate modeling, population calculation, and real estate evaluation. Terrain data, land use data, and weather data were integrated and analyzed to generate insights into natural hazard risks, particularly flood risks. The project utilized hydrology analysis techniques such as Fill, Flow Direction, Flow Accumulation, and Extract Streams to inform hazard assessment. Additionally, the creation of a Digital Elevation Model (DEM) and generation of contours and hillshade further enriched the spatial dataset. The outcomes of this project contribute to informed decision-making in land management, urban planning, and disaster risk reduction efforts.</p>
-        <!-- <a href="#" class="details-button">More Details</a> -->
+        <p> This project focuses on the development of an Integrated Land Management Information System (ILMIS) through the creation of a Digital Cadastral Database (DCDB) to support comprehensive land information management. Leveraging GIS technology such as QGIS & ArcGIS, the project undertook various spatial analysis and visualizations to enhance understanding and management of natural hazards.</p>
+
+      <details>
+        <summary>More Details</summary>
+        <p> Key tasks included digitization, 3D modeling, climate modeling, population calculation, and real estate evaluation. Terrain data, land use data, and weather data were integrated and analyzed to generate insights into natural hazard risks, particularly flood risks. The project utilized hydrology analysis techniques such as Fill, Flow Direction, Flow Accumulation, and Extract Streams to inform hazard assessment. Additionally, the creation of a Digital Elevation Model (DEM) and generation of contours and hillshade further enriched the spatial dataset. The outcomes of this project contribute to informed decision-making in land management, urban planning, and disaster risk reduction efforts.</p>
+      </details>
       </div>
 
 
       <div class="project-card">
         <img src="img/road_result.png" alt="Project 2">
         <h1>Road Extraction from Satellite Images Using UNet</h1>
-        <p>Urban greenspaces provide multiple important benefits, including influencing surrounding commercial value. This website provides an overview of research undertaken to investigate the commercial value of greenspaces across the city of Edinburgh. The research involved exploring green spaces impact on property values, population, distribution of shops, and transport routes to assess accessibility, particularly focusing on Princes Street Gardens and Craigmillar Castle Park.</p>
-        <a href="https://www.geos.ed.ac.uk/~s2318332/InteractiveMap/index.html" class="custom-link" target="_blank"></i> Green Space</a>
+        <p>This project investigates road surface extraction from high-resolution satellite images using the UNet architecture. Trained on Deep Glove datasets resized to 256x256 pixels, the study demonstrates the model's effectiveness in identifying roads despite reduced pixel dimensions. Findings suggest promising applications in urban planning and transportation infrastructure management, showcasing the potential of deep learning techniques in remote sensing.  </p>
+        <a href="https://github.com/azeemk210/Road-extraction-from-satellite-imagery-using-U-Net-main" class="custom-link" target="_blank"></i> Road Extraction </a>
       </div>
 
       <!--  Add above      -->
