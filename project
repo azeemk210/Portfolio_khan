@@ -7,8 +7,8 @@
       </div>
     <div class="project-grid">
       <div class="project-card">
-        <img src="img/Watershed_1.jpg" alt="Project 1">
-        <h1>Delineation of Watershed</h1>
+        <img src="img/ILMIS.jpeg" alt="Project 1">
+        <h1>ILMIS: Integrated Land Management Information System </h1>
         <p> Watershed delineation is a fundamental process in the field of hydrology and environmental science. It involves the identification of the boundaries of a watershed, which is an area of land where all the surface water drains into a common outlet, such as a river, stream, or lake. In addition to delineating watershed boundaries, hydrologists often classify the streams within a watershed into different orders based on their size and position within the drainage network</p>
         <!-- <a href="#" class="details-button">More Details</a> -->
       </div>
