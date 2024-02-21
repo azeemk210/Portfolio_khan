@@ -89,27 +89,6 @@ function showSlides(n, section) {
 }
 
 
-
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        document.querySelectorAll('.details-button').forEach(function(button) {
-            button.addEventListener('click', function(event) {
-                event.preventDefault(); // Prevent default behavior of anchor tag
-                var details = this.nextElementSibling;
-                if (details.style.display === 'none') {
-                    details.style.display = 'block';
-                    this.textContent = 'Less Details';
-                } else {
-                    details.style.display = 'none';
-                    this.textContent = 'More Details';
-                }
-            });
-        });
-    });
-</script>
-
-
-
 // ------------------------------------------------------- //
 
 
