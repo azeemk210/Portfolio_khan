@@ -138,3 +138,66 @@
 </div>
   </section>
   <!-- End of Project Section -->
+
+  <b>Projects:</b>
+          <ul class="bullet-list">
+            <p><b>ILMIS: Integrated Land Management Information System </b></p>
+            <li>Development of a Digital Cadastral Data Base (DCDB) to support an integrated Land Information System
+            </li>
+            <li>Created DEM & generated contours and hillshade</li>
+            <li>Hydrology analysis (Fill, Flow Direction, Flow accumulation, Extract Streams)</li>
+            <li>ArcGIS was used for spatial analysis and visualization of natural hazard data, such as terrain data,
+              land use data, and weather data</li>
+            <li>Key tasks: Digitization, Climate modeling, Population calculation, and Real Estate evaluation, Generated
+              flood risk maps</li>
+          </ul>
+
+          <ul class="bullet-list">
+            <p><b>Road extraction from satellite images using deep learning </b></p>
+            <li>Implemented a deep learning model using U-Net architecture for road extraction from satellite images
+            </li>
+            <li>Conducted data preparation, including image pre-processing and augmentation to improve model performance
+            </li>
+            <li>Trained the model on a large dataset and evaluated its performance using various metrics</li>
+            <li>Tools uses: Python, VS code, Github, Pytorch</li>
+          </ul>
+
+          <!-- <ul class="bullet-list">
+            <p><b>Lightning Data Visualization on a WebMap using React.js & Leaflet</b> </p>
+            <li>Extracted and cleaned lightning data from a netCDF dataset into CSV format for web map integration</li>
+            <li>Utilized JavaScript libraries to create an interactive web map</li>
+            <li>Implemented popups and markers functions, layer control of Leaflet to display lightning strike
+              information </li>
+            <li>Hosted the web map on a local server for secure and accessible data visualization</li>
+            <li>Toolls used: HTML, CSS, JavaScript, React, Leaflet, VS code, Github</li>
+          </ul> -->
+
+          <ul class="bullet-list">
+            <p><b>Web Map using OpenLayers and GeoServer</b> </p>
+            <li>Created web map using OpenLayers library, Geoserver and PostGIS</li>
+            <li>Published and managed geospatial data using GeoServer</li>
+            <li>Customised web map by adding layer switcher, scale bar, mouse positioning, featureinfo popup, custom
+              controls, measure length and area functionality, custom zoom in & zoom out functionality, attribute query
+              funcationality</li>
+            <li>Tools used: HTML, CSS, and JavaScript programming, OpenLayers, Geoserver, and PostGIS</li>
+          </ul>
+
+          <ul class="bullet-list">
+            <p><b>Monitor surface water changes using satellite images in ESRI's ArcGIS Map</b> </p>
+            <li>Conducted data preparation including image pre-processing and mosaicking to prepare data for analysis
+            </li>
+            <li>Calculated NDVI & NDWI, created change maps</li>
+            <li>Monitored the surface water of Starnberg Lake between 2010 & 2020 using Sentinal 2 dataset</li>
+          </ul>
+
+
+
+          <ul class="bullet-list">
+            <p><b>Webmap of US airports and state </b> </p>
+            <li>Collected and processed data on all US airports and states for geovisualization</li>
+            <li>Developed a web map using Leaflet library to visualize the locations of airports</li>
+            <li>Created custom markers for each airport, displaying relevant information on pop</li>
+            <li>Implemented interactive features and map customization options for enhanced user experience</li>
+            <li>Tools used: HTML, CSS, JavaScript, Leaflet, VS code, Github</li>
+
+          </ul>
