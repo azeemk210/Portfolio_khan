@@ -541,7 +541,8 @@ p {
   }
   */
 
-  .prev, .next {
+  #experience .prev,
+  #experience .next {
 	cursor: pointer;
 	padding: 16px; /* Added padding */
 	margin: 0 8px; /* Optional spacing */
@@ -558,25 +559,14 @@ p {
 	transform: translateY(-50%);
   }
   
-  .prev {
+  #experience .prev {
 	left: 0;
   }
   
-  .next {
+  #experience .next {
 	right: 0;
   }
   
-  /* Hover effects */
-  .prev:hover, .next:hover {
-	background: rgba(0,0,0,0.7);
-  }
-  
-  /* If you need them centered vertically in a flex container */
-  .slider-container {
-	position: relative;
-	display: flex;
-	align-items: center;
-  }
   
   #experience .text {
 	color: #f2f2f2;
