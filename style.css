@@ -407,7 +407,7 @@ p {
   
 #experience{
 	flex-direction: column;
-	max-width: 1400px;
+	max-width: 1600px;
 	max-height: auto;
 	margin: 0 auto;
 	padding: 100px 0;
@@ -457,6 +457,8 @@ p {
 	font-size: 20px;
 	margin-bottom: 40px;
 	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
   }
   
 .experience-slides h2 {
@@ -495,6 +497,8 @@ p {
 	margin-top: 5px; 
   }
   
+
+
   #experience .mySlides {
 	display: none;
 	text-align: left;
@@ -515,32 +519,7 @@ p {
 	margin-bottom: 20px; /* Adjust the value as needed */
   }
 
- /*
-  #experience .prev,
-  #experience .next {
-	cursor: pointer;
-	position: absolute;
-	top: 50%;
-	padding: 16px;
-	margin: 0 8px;
-	font-weight: bold;
-	font-size: 18px;
-	transition: 0.3s;
-	background-color: rgba(232, 228, 228, 0.5);
-	border-radius: 4px;
-  }
   
-  #experience .prev {
-	left: 0;
-	transform: translateY(-50%);
-  }
-  
-  #experience .next {
-	right: 0;
-	transform: translateY(-50%);
-  }
-  */
-
   #experience .prev,
   #experience .next {
 	cursor: pointer;
@@ -548,7 +527,7 @@ p {
 	margin: 0 8px; /* Optional spacing */
 	font-size: 24px;
 	border: none;
-	background: rgba(0,0,0,0.3);
+	background: rgba(0,0,0,0.1);
 	color: white;
 	border-radius: 4px;
 	transition: background 0.3s ease;
@@ -567,6 +546,12 @@ p {
 	right: 0;
   }
   
+
+#experience .prev:hover,
+#experience .next:hover {
+	background-color: #ff004f;
+	color: #fff;
+}
   
   #experience .text {
 	color: #f2f2f2;
@@ -1203,15 +1188,15 @@ summary {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 }
 #footer .footer {
-	min-height: 80px;
+	min-height: 40px;
 	flex-direction: column;
-	padding-top: 50px;
+	padding-top: 10px;
 	padding-bottom: 10px;
 }
 #footer h2 {
 	color: white;
-	font-weight: 500;
-	font-size: 1.8rem;
+	font-weight: 800;
+	font-size: 2rem;
 	letter-spacing: 0.1rem;
 	margin-top: 5px;
 	margin-bottom: 5px;
@@ -1219,7 +1204,7 @@ summary {
 
 #footer p {
 	color: white;
-	font-size: 1.3rem;
+	font-size: 1.8rem;
 }
 /* End Footer */
 
