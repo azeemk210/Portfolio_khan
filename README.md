@@ -37,8 +37,9 @@ For more projects, visit my GitHub: [azeemk210](https://github.com/azeemk210)
 
 ## 📫 Connect with Me
 - **GitHub:** [azeemk210](https://github.com/azeemk210)
-- **Gmail:** [khan.azeemak](khan.azeemak@gmail.com)
-- **Linkedin:** [azeem-khan210](https://www.linkedin.com/in/azeem-khan210/)
+- **Gmail:** [khan.azeemak@gmail.com](mailto:khan.azeemak@gmail.com)
+- **LinkedIn:** [azeem-khan210](https://www.linkedin.com/in/azeem-khan210/)
+
 
 Let's connect and discuss how geospatial AI can revolutionize EO applications! 🚀
 
