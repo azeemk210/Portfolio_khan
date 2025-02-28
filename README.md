@@ -8,18 +8,10 @@ Welcome to my portfolio! I specialize in GIS, remote sensing, and Earth Observat
 
 ---
 
-## 🔭 Current Work
-- **Satellite Data Processing**: Automating the retrieval and analysis of Sentinel-1, Sentinel-2, Sentinel-5P, MODIS, and SMAP data.
-- **AI & GenAI for EO**: Exploring AI-powered solutions for enhancing satellite image interpretation and supporting GenAI model R&D.
-- **Data Preparation & Integration**: Preparing geospatial datasets for AI applications and integrating AI-generated imagery with real-world textures.
-- **Geospatial Analysis & Visualization**: Developing Python-based tools for NDVI calculations, atmospheric correction, and EO image enhancement.
-
----
-
 ## ⚡ Skills & Technologies
 - **Programming & Data Processing:** Python, SQL, MATLAB, HDF5, GDAL, NumPy, Pandas
 - **EO & GIS Tools:** Sentinel Hub API, Google Earth Engine, QGIS, ArcGIS, modis_tools
-- **Cloud & Automation:** Google Colab, AWS, OAuth2 Authentication, API Integrations
+- **Cloud & Automation:** Google Colab, OAuth2 Authentication, API Integrations
 - **AI & Machine Learning:** Geospatial AI, Data Preparation for AI Models
 - **Visualization:** Matplotlib, Seaborn, GeoPandas, Folium
 
